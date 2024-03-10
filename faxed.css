@@ -1,0 +1,63 @@
+/***********
+Imports
+************/
+@import url(https://fonts.google.com/specimen/Outfit);
+/***********
+Reset
+************/
+* *::after *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    border-radius: 20px;
+}
+/***********
+Global
+************/
+:root{
+ --White: hsl(0, 0%, 100%);
+ --Light-gray: hsl(212, 45%, 89%);
+ --Grayish-blue: hsl(220, 15%, 55%);
+ --Dark-blue: hsl(218, 44%, 22%);
+}
+body{
+    background-color: var(--Light-gray);
+    text-align: center;
+    line-height: 1.5;
+    font-size: 15px;
+    font-family:'Outfit';
+}
+.tite{
+    padding-top: 1em;
+    padding-top: 1em;
+}
+h1{
+    color: var(--Dark-blue);
+}
+/***********
+page contents
+************/
+main{
+    display: flex;
+    flex-wrap:wrap
+}
+.card{
+    background-color:var(--White);
+    width: 90%;
+    margin: auto;
+    padding: 1em;
+    border-radius: 20px;
+}
+/***********
+madia
+************/
+
